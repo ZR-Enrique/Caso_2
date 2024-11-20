@@ -1,0 +1,82 @@
+/* Estilos generales para las etiquetas */
+.badge {
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 12px;
+    color: white;
+}
+
+/* Colores específicos para cada tipo de etiqueta */
+.badge-developer {
+    background-color: #28a745; /* Verde */
+}
+
+.badge-support {
+    background-color: #17a2b8; /* Azul claro */
+}
+
+.badge-administrator {
+    background-color: #007bff; /* Azul */
+}
+
+.badge-analyst {
+    background-color: #ffc107; /* Amarillo */
+    color: black; /* Contraste mejorado */
+}
+
+.badge-trial {
+    background-color: #fd7e14; /* Naranja */
+}
+
+/* Estilos de la tabla */
+.table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+/* Botones */
+.btn-edit {
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #d9534f;
+    border-color: #d9534f;
+    color: white;
+}
+
+/* Estilos generales de los botones en Bootstrap */
+.btn {
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Mejoras en la visibilidad de las etiquetas */
+.tag {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: white;
+}
+.btn-toolbar {
+    margin-bottom: 20px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.btn {
+    margin-right: 10px;
+}

@@ -1,0 +1,183 @@
+/* Estilos generales */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+.table td {
+    font-size: 14px;
+}
+
+.btn-edit {
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.btn-edit:hover {
+    background-color: #ec971f;
+    border-color: #ec971f;
+}
+
+.btn-delete {
+    background-color: #d9534f;
+    border-color: #d9534f;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.btn-delete:hover {
+    background-color: #c9302c;
+    border-color: #c12e2a;
+}
+
+/* Estilo de las etiquetas */
+.tag {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: white;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.tag-administrator {
+    background-color: #007bff;
+}
+
+.tag-developer {
+    background-color: #28a745;
+}
+
+.tag-analyst {
+    background-color: #ffc107;
+}
+
+.tag-support {
+    background-color: #6f42c1;
+}
+
+.tag-trial {
+    background-color: #fd7e14;
+}
+
+/* Estilo mejorado para el dropdown de selección de etiquetas */
+.dropdown-menu {
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    width: 250px;
+}
+
+.dropdown-toggle {
+    background-color: #343a40;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.dropdown-toggle:hover {
+    background-color: #495057;
+}
+
+.dropdown-item {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #495057;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-item:hover {
+    background-color: #e9ecef;
+}
+
+.form-check-input {
+    margin-right: 10px;
+    accent-color: #28a745; /* Color del checkbox cuando está seleccionado */
+}
+
+.dropdown-divider {
+    margin: 10px 0;
+}
+
+.dropdown-item.agregar-etiqueta {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+.dropdown-item.agregar-etiqueta:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Pequeñas mejoras para los inputs */
+.form-control {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    border-color: #80bdff;
+}
+
+/* Botón de actualización */
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Títulos y Contenedor Principal */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
